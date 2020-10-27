@@ -86,5 +86,6 @@
 
 <script>
 export default {
+  middleware: 'isadmin'
 }
 </script>
