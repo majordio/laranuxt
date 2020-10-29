@@ -11,7 +11,7 @@ export default {
   loading: '~/components/loading.vue',
 
   head: {
-    title: 'client',
+    title: 'My eCommerce',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -65,13 +65,13 @@ export default {
         provider: 'laravel/sanctum',
         url: process.env.API_URL
       }
-    },
-    redirect: {
-      login: '/login',
-      logout: '/login',
-      callback: '/login',
-      home: '/'
     }
+    // redirect: {
+    //   login: '/login',
+    //   logout: '/login',
+    //   callback: '/login',
+    //   home: '/'
+    // }
   },
   router: {
     middleware: []
@@ -97,5 +97,8 @@ export default {
     //     })
     //   }
     // }
+  },
+  tailwindcss: {
+    exposeConfig: true
   }
 }

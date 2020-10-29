@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-red-200 text-red-700 px-6 py-4 rounded-lg relative mb-5" role="alert" x-data="{ open: true }" x-show.transition="open">
+    <!-- <div class="bg-red-200 text-red-700 px-6 py-4 rounded-lg relative mb-5" role="alert" x-data="{ open: true }" x-show.transition="open">
       <div class="mr-4">
         <pre>{{ this.$route.path }}</pre>
         <strong class="font-bold">Account Due!</strong>
@@ -23,11 +23,11 @@
           <line x1="6" y1="6" x2="18" y2="18" />
         </svg>
       </span>
-    </div>
+    </div> -->
 
     <div class="flex items-center justify-between mb-4">
       <h2 class="text-xl font-bold text-gray-800">
-        {{ this.$route.path }}
+        {{ title }}
       </h2>
 
       <button class="shadow inline-flex items-center bg-blue-500 hover:bg-blue-600 focus:outline-none focus:shadow-outline text-white font-semibold py-2 px-4 rounded-lg">
@@ -245,7 +245,12 @@
 
 <script>
 export default {
-  layout: 'admin'
+  layout: 'admin',
+  data () {
+    return {
+      title: 'Dashboard'
+    }
+  }
   // middleware: 'isadmin'
 }
 </script>

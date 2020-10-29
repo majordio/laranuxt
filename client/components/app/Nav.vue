@@ -3,7 +3,7 @@
 </nav> -->
   <nav
     :class="{ 'scrolled': !view.atTopOfPage }"
-    class="fixed flex w-full flex-wrap m-auto top-0 animated justify-between items-center bg-opacity-25 bg-gray-800"
+    class="z-40 fixed flex w-full flex-wrap m-auto top-0 animated justify-between items-center bg-opacity-25 bg-gray-800"
   >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
