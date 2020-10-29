@@ -2,7 +2,7 @@
   <div>
     <Nav />
     <PageHeader />
-    <main class="bg-gray-200">
+    <main class="bg-gray-100">
       <nuxt />
     </main>
   </div>

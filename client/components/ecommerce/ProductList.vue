@@ -32,10 +32,10 @@ export default {
           beds: 3,
           baths: 2,
           title: 'Sample Product 1',
-          priceInCents: 190000,
-          formattedPrice: '₱2,999',
+          priceInCents: 1900,
+          oldPrice: 2500,
           reviewCount: 34,
-          rating: 4
+          rating: 2
         },
         {
           imageUrl: 'https://picsum.photos/200/300?v=2',
@@ -43,19 +43,19 @@ export default {
           beds: 3,
           baths: 2,
           title: 'Sample Product 2',
-          priceInCents: 190000,
-          formattedPrice: '₱3,400',
+          priceInCents: 195,
+          oldPrice: 250,
           reviewCount: 34,
-          rating: 4
+          rating: 5
         },
         {
           imageUrl: 'https://picsum.photos/200/300?v=3',
           imageAlt: 'Rear view of modern home with pool',
           beds: 3,
           baths: 2,
-          title: 'Sample Product 3',
-          priceInCents: 190000,
-          formattedPrice: '₱500',
+          title: 'Sample Product with very long name even longer than that one',
+          priceInCents: 3200,
+          oldPrice: 5000,
           reviewCount: 34,
           rating: 4
         },
@@ -65,8 +65,52 @@ export default {
           beds: 3,
           baths: 2,
           title: 'Sample Product 4',
-          priceInCents: 190000,
-          formattedPrice: '₱1,900',
+          priceInCents: 1400,
+          oldPrice: 3500,
+          reviewCount: 34,
+          rating: 4
+        },
+        {
+          imageUrl: 'https://picsum.photos/200/300?v=5',
+          imageAlt: 'Rear view of modern home with pool',
+          beds: 3,
+          baths: 2,
+          title: 'Sample Product with a very long name',
+          priceInCents: 6000,
+          oldPrice: 6000,
+          reviewCount: 34,
+          rating: 4
+        },
+        {
+          imageUrl: 'https://picsum.photos/200/300?v=6',
+          imageAlt: 'Rear view of modern home with pool',
+          beds: 3,
+          baths: 2,
+          title: 'Product 123',
+          priceInCents: 480,
+          oldPrice: 500,
+          reviewCount: 34,
+          rating: 4
+        },
+        {
+          imageUrl: 'https://picsum.photos/200/300?v=7',
+          imageAlt: 'Rear view of modern home with pool',
+          beds: 3,
+          baths: 2,
+          title: 'Sample',
+          priceInCents: 2000,
+          oldPrice: 2000,
+          reviewCount: 34,
+          rating: 4
+        },
+        {
+          imageUrl: 'https://picsum.photos/200/300?v=8',
+          imageAlt: 'Rear view of modern home with pool',
+          beds: 3,
+          baths: 2,
+          title: 'Sample Product 4',
+          priceInCents: 199,
+          oldPrice: 199,
           reviewCount: 34,
           rating: 4
         }
